@@ -40,7 +40,7 @@ export const AuthProvider = ({ children }) => {
     try {
       const response = await api.post('/auth/login', { email, password });
       
-      const { token: userToken, user: userProfile } = response.data;
+      const { accessToken: userToken, user: userProfile } = response.data;
       
       localStorage.setItem('token', userToken);
       localStorage.setItem('user', JSON.stringify(userProfile));
