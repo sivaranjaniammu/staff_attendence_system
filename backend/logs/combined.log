@@ -273,3 +273,52 @@
 {"level":"debug","message":"Sequelize: Executing (default): SELECT count(*) AS `count` FROM `attendance` AS `Attendance` WHERE `Attendance`.`date` = '2026-06-09' AND `Attendance`.`status` = 'ON_LEAVE';","timestamp":"2026-06-09 14:25:43"}
 {"level":"debug","message":"Sequelize: Executing (default): SELECT count(*) AS `count` FROM `leave_requests` AS `LeaveRequest` WHERE `LeaveRequest`.`status` = 'PENDING';","timestamp":"2026-06-09 14:25:43"}
 {"level":"info","message":"\u001b[0mGET /api/dashboard/stats \u001b[36m304\u001b[0m 26.747 ms - -\u001b[0m","timestamp":"2026-06-09 14:25:43"}
+{"level":"debug","message":"Sequelize: Executing (default): SELECT 1+1 AS result","timestamp":"2026-06-09 14:36:32"}
+{"level":"info","message":"MySQL Database connected successfully via Sequelize.","timestamp":"2026-06-09 14:36:32"}
+{"level":"debug","message":"Sequelize: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'roles' AND TABLE_SCHEMA = 'staff_attendance_db'","timestamp":"2026-06-09 14:36:32"}
+{"level":"debug","message":"Sequelize: Executing (default): SHOW INDEX FROM `roles`","timestamp":"2026-06-09 14:36:32"}
+{"level":"debug","message":"Sequelize: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'staff_attendance_db'","timestamp":"2026-06-09 14:36:32"}
+{"level":"debug","message":"Sequelize: Executing (default): SHOW INDEX FROM `users`","timestamp":"2026-06-09 14:36:32"}
+{"level":"debug","message":"Sequelize: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'departments' AND TABLE_SCHEMA = 'staff_attendance_db'","timestamp":"2026-06-09 14:36:32"}
+{"level":"debug","message":"Sequelize: Executing (default): SHOW INDEX FROM `departments`","timestamp":"2026-06-09 14:36:32"}
+{"level":"debug","message":"Sequelize: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'staff' AND TABLE_SCHEMA = 'staff_attendance_db'","timestamp":"2026-06-09 14:36:32"}
+{"level":"debug","message":"Sequelize: Executing (default): SHOW INDEX FROM `staff`","timestamp":"2026-06-09 14:36:32"}
+{"level":"debug","message":"Sequelize: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'attendance' AND TABLE_SCHEMA = 'staff_attendance_db'","timestamp":"2026-06-09 14:36:32"}
+{"level":"debug","message":"Sequelize: Executing (default): SHOW INDEX FROM `attendance`","timestamp":"2026-06-09 14:36:32"}
+{"level":"debug","message":"Sequelize: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'attendance_settings' AND TABLE_SCHEMA = 'staff_attendance_db'","timestamp":"2026-06-09 14:36:32"}
+{"level":"debug","message":"Sequelize: Executing (default): SHOW INDEX FROM `attendance_settings`","timestamp":"2026-06-09 14:36:32"}
+{"level":"debug","message":"Sequelize: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'leave_requests' AND TABLE_SCHEMA = 'staff_attendance_db'","timestamp":"2026-06-09 14:36:32"}
+{"level":"debug","message":"Sequelize: Executing (default): SHOW INDEX FROM `leave_requests`","timestamp":"2026-06-09 14:36:32"}
+{"level":"debug","message":"Sequelize: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'notifications' AND TABLE_SCHEMA = 'staff_attendance_db'","timestamp":"2026-06-09 14:36:32"}
+{"level":"debug","message":"Sequelize: Executing (default): SHOW INDEX FROM `notifications`","timestamp":"2026-06-09 14:36:32"}
+{"level":"info","message":"Database models synchronized successfully.","timestamp":"2026-06-09 14:36:32"}
+{"level":"debug","message":"Sequelize: Executing (default): SELECT count(*) AS `count` FROM `roles` AS `Role`;","timestamp":"2026-06-09 14:36:32"}
+{"level":"info","message":"Server successfully listening in development mode on port 5000","timestamp":"2026-06-09 14:36:32"}
+{"level":"debug","message":"Sequelize: Executing (default): SELECT count(*) AS `count` FROM `staff` AS `Staff`;","timestamp":"2026-06-09 14:37:01"}
+{"level":"debug","message":"Sequelize: Executing (default): SELECT count(*) AS `count` FROM `attendance` AS `Attendance` WHERE `Attendance`.`date` = '2026-06-09' AND `Attendance`.`status` IN ('PRESENT', 'LATE', 'HALF_DAY');","timestamp":"2026-06-09 14:37:01"}
+{"level":"debug","message":"Sequelize: Executing (default): SELECT count(*) AS `count` FROM `attendance` AS `Attendance` WHERE `Attendance`.`date` = '2026-06-09' AND `Attendance`.`status` = 'ABSENT';","timestamp":"2026-06-09 14:37:01"}
+{"level":"debug","message":"Sequelize: Executing (default): SELECT count(*) AS `count` FROM `attendance` AS `Attendance` WHERE `Attendance`.`date` = '2026-06-09' AND `Attendance`.`status` = 'ON_LEAVE';","timestamp":"2026-06-09 14:37:02"}
+{"level":"debug","message":"Sequelize: Executing (default): SELECT count(*) AS `count` FROM `leave_requests` AS `LeaveRequest` WHERE `LeaveRequest`.`status` = 'PENDING';","timestamp":"2026-06-09 14:37:02"}
+{"level":"info","message":"\u001b[0mGET /api/dashboard/stats \u001b[36m304\u001b[0m 674.478 ms - -\u001b[0m","timestamp":"2026-06-09 14:37:02"}
+{"level":"debug","message":"Sequelize: Executing (default): SELECT count(*) AS `count` FROM `staff` AS `Staff`;","timestamp":"2026-06-09 14:37:06"}
+{"level":"debug","message":"Sequelize: Executing (default): SELECT count(*) AS `count` FROM `attendance` AS `Attendance` WHERE `Attendance`.`date` = '2026-06-09' AND `Attendance`.`status` IN ('PRESENT', 'LATE', 'HALF_DAY');","timestamp":"2026-06-09 14:37:06"}
+{"level":"debug","message":"Sequelize: Executing (default): SELECT count(*) AS `count` FROM `attendance` AS `Attendance` WHERE `Attendance`.`date` = '2026-06-09' AND `Attendance`.`status` = 'ABSENT';","timestamp":"2026-06-09 14:37:06"}
+{"level":"debug","message":"Sequelize: Executing (default): SELECT count(*) AS `count` FROM `attendance` AS `Attendance` WHERE `Attendance`.`date` = '2026-06-09' AND `Attendance`.`status` = 'ON_LEAVE';","timestamp":"2026-06-09 14:37:06"}
+{"level":"debug","message":"Sequelize: Executing (default): SELECT count(*) AS `count` FROM `leave_requests` AS `LeaveRequest` WHERE `LeaveRequest`.`status` = 'PENDING';","timestamp":"2026-06-09 14:37:06"}
+{"level":"info","message":"\u001b[0mGET /api/dashboard/stats \u001b[36m304\u001b[0m 28.930 ms - -\u001b[0m","timestamp":"2026-06-09 14:37:06"}
+{"level":"debug","message":"Sequelize: Executing (default): SELECT count(*) AS `count` FROM `staff` AS `Staff`;","timestamp":"2026-06-09 14:50:34"}
+{"level":"debug","message":"Sequelize: Executing (default): SELECT count(*) AS `count` FROM `attendance` AS `Attendance` WHERE `Attendance`.`date` = '2026-06-09' AND `Attendance`.`status` IN ('PRESENT', 'LATE', 'HALF_DAY');","timestamp":"2026-06-09 14:50:34"}
+{"level":"debug","message":"Sequelize: Executing (default): SELECT count(*) AS `count` FROM `attendance` AS `Attendance` WHERE `Attendance`.`date` = '2026-06-09' AND `Attendance`.`status` = 'ABSENT';","timestamp":"2026-06-09 14:50:34"}
+{"level":"debug","message":"Sequelize: Executing (default): SELECT count(*) AS `count` FROM `attendance` AS `Attendance` WHERE `Attendance`.`date` = '2026-06-09' AND `Attendance`.`status` = 'ON_LEAVE';","timestamp":"2026-06-09 14:50:34"}
+{"level":"debug","message":"Sequelize: Executing (default): SELECT count(*) AS `count` FROM `leave_requests` AS `LeaveRequest` WHERE `LeaveRequest`.`status` = 'PENDING';","timestamp":"2026-06-09 14:50:34"}
+{"level":"info","message":"\u001b[0mGET /api/dashboard/stats \u001b[36m304\u001b[0m 111.392 ms - -\u001b[0m","timestamp":"2026-06-09 14:50:34"}
+{"level":"debug","message":"Sequelize: Executing (default): SELECT count(*) AS `count` FROM `staff` AS `Staff`;","timestamp":"2026-06-09 14:50:34"}
+{"level":"debug","message":"Sequelize: Executing (default): SELECT count(*) AS `count` FROM `attendance` AS `Attendance` WHERE `Attendance`.`date` = '2026-06-09' AND `Attendance`.`status` IN ('PRESENT', 'LATE', 'HALF_DAY');","timestamp":"2026-06-09 14:50:34"}
+{"level":"debug","message":"Sequelize: Executing (default): SELECT count(*) AS `count` FROM `attendance` AS `Attendance` WHERE `Attendance`.`date` = '2026-06-09' AND `Attendance`.`status` = 'ABSENT';","timestamp":"2026-06-09 14:50:34"}
+{"level":"debug","message":"Sequelize: Executing (default): SELECT count(*) AS `count` FROM `attendance` AS `Attendance` WHERE `Attendance`.`date` = '2026-06-09' AND `Attendance`.`status` = 'ON_LEAVE';","timestamp":"2026-06-09 14:50:34"}
+{"level":"debug","message":"Sequelize: Executing (default): SELECT count(*) AS `count` FROM `leave_requests` AS `LeaveRequest` WHERE `LeaveRequest`.`status` = 'PENDING';","timestamp":"2026-06-09 14:50:34"}
+{"level":"info","message":"\u001b[0mGET /api/dashboard/stats \u001b[36m304\u001b[0m 24.819 ms - -\u001b[0m","timestamp":"2026-06-09 14:50:34"}
+{"level":"debug","message":"Sequelize: Executing (default): SELECT `id`, `name`, `code`, `description`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `departments` AS `Department` ORDER BY `Department`.`name` ASC;","timestamp":"2026-06-09 14:50:39"}
+{"level":"info","message":"\u001b[0mGET /api/departments \u001b[32m200\u001b[0m 24.783 ms - 266\u001b[0m","timestamp":"2026-06-09 14:50:39"}
+{"level":"debug","message":"Sequelize: Executing (default): SELECT `id`, `name`, `code`, `description`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `departments` AS `Department` ORDER BY `Department`.`name` ASC;","timestamp":"2026-06-09 14:50:39"}
+{"level":"info","message":"\u001b[0mGET /api/departments \u001b[36m304\u001b[0m 8.874 ms - -\u001b[0m","timestamp":"2026-06-09 14:50:40"}
