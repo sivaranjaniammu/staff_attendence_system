@@ -19,7 +19,7 @@ const Login = () => {
     try {
       setError('');
       setSubmitting(true);
-      await login(email, password);
+      await login(email.trim(), password);
     } catch (err) {
       setError(err.message || 'Login failed. Please double check credentials.');
     } finally {
